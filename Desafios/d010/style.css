@@ -46,7 +46,7 @@ header h1{
 header p{
     text-align: center;
     font-family: 'bebas';
-    padding: 10px;
+    padding: 10px 10px 30px 10px;
     text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.397);
     font-size: 1.2em;
 }
