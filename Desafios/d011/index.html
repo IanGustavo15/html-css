@@ -11,9 +11,27 @@
         border: 0px;
         padding: 0px;
     }
+    #container{
+        background-image: url(espaco.jpg);
+        height: 100vh;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #conteudo{
+        background-image: url(astronauta.png);
+        position: absolute;
+        height: 508px;
+        width: 500px;
+        background-size: 100% 100%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
 </style>
 <body>
-    <img class="espaco" src="espaco.jpg" alt="espaco">
-    <img class="astronauta" src="astronauta.png" alt="astronauta">
+    <section id="container">
+    </section>
+    <div id="conteudo"></div>
 </body>
 </html>
