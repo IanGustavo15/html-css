@@ -173,14 +173,14 @@ footer p{
 footer a{
     font-weight: bold;
     text-decoration: none;
-    color: white;
+    color: var(--cor5);
 }
 footer a:visited{
     font-weight: bold;
     text-decoration: none;
-    color: white;
+    color: var(--cor5);
 }
 footer a:hover{
     text-decoration: underline;
-    color: var(--cor5);
+    font-weight: bold;
 }
