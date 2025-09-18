@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes com Google Fonts</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');/*Importando fontes através de links*/
+        @font-face {/*Importando fontes através de Arquivos*/
+            font-family: 'Oldlondon';
+            src: url(fonts/OldLondon.otf) format(opentype), url(fonts/OldLondon.ttf) format(truetype);
+            font-weight: normal;
+            font-style: normal;
+        }
+        /*
+        Tipos de format()
+        opentype (otf)
+        truetype (ttf)
+        embedded-opentype
+        truetype-aat (Apple Advanced Typography)
+        -svg
+        */
+        body{
+            font: 16px 'Oldlondon';
+            color: #000;
+            font-weight: normal;
+        }
+        h1{
+            font: 5em 'oldlondon';
+        font-weight: normal;        }
+        p{
+            font: 1em 'merienda';
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa facere cumque rem animi nihil repellendus aliquid quas, est cupiditate autem, eveniet nam accusantium voluptate sapiente accusamus voluptas ea quae. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque sunt labore esse sint consequuntur! Commodi nostrum eligendi molestias totam nobis debitis. Aliquid soluta doloremque eum id veritatis facere nesciunt a.</p>
+</body>
+</html>
