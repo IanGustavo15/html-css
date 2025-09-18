@@ -33,16 +33,23 @@ header h1 > div{
 header p{
     font-size: 1.2em;
 }
+header a{
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+}
+header a:hover{
+    text-decoration: underline;
+}
 main div{
-    border: 1.5px solid black;
-    max-width: 100%;
+    border: 2px solid black;
 }
 .imagem{
+    position: relative;
     background-image: url('imagens/background001.jpg');
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    display: flex;
 }
 .imagem p{
     background-color: rgba(0, 0, 0, 0.486);
