@@ -4,7 +4,7 @@
 :root{
     --fonte1: 'Sriracha';
     --fonte2: 'Passion One';
-    --fonte3: 'Work sans'
+    --fonte3: 'verdana, helvetica, sans-serif'
 }
 *{
     margin: 0px;
@@ -12,10 +12,10 @@
 }
 p{
     font-family: var(--fonte1);
-    margin: 1em;
-    font-size: 3.8em;
+    font-size: 3.5vw;
+    margin: 7vw 1vw;
     line-height: 2em;
-    padding: 5px;
+    padding-left: 2vw;
 }
 header{
     text-align: center;
@@ -26,7 +26,7 @@ header{
 header h1{
     font-family: var(--fonte2);
     font-weight: bolder;
-    font-size: 7em;
+    font-size: 7vw;
 }
 header h1 > div{
     display: inline;
@@ -34,9 +34,10 @@ header h1 > div{
     padding: 0px 0px 0px 10px;
 }
 header p{
-    font-size: 1.5em;
+    font-size: 1.5vw;
     padding: 0px 0px 20px 0px;
     font-weight: lighter;
+    margin: 0vw;
 }
 header a{
     font-weight: bold;
@@ -46,24 +47,14 @@ header a{
 header a:hover{
     text-decoration: underline;
 }
-main div{
-    height: 103vh;
-}
-.tipo1{
-    height: 100vh;
-}
-.tipo2{
-    height: 206vh;
-}
+
 div.imagem{
-    position: relative;
-    background-position: center center;
-    background-attachment: scroll;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px black;
 }
 div.imagem > p{
-    position: absolute;
     display: inline-block;
     background-color: rgb(0 0 0 / 34%);
     color: white;
@@ -71,20 +62,12 @@ div.imagem > p{
 }
 #um{
     background-image: url('imagens/background001.jpg');
-    top: 0%;
-    left: 0%;
-    transform: translate(0%, 5%);
-    height: 107vh;
 }
 #dois{
-    background-image: url(imagens/background002.jpg);
-    top: 0%;
-    left: 0%;
-    transform: translate(0%, 0%);
-    height: 105vh;
+    background-image: url('imagens/background002.jpg');
 }
 footer p{
-    font-size: 1.25em;
+    font-size: 1.25vw;
     font-weight: normal;
     font-family: var(--fonte3);
     background-color: black;
