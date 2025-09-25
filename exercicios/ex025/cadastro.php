@@ -1,1 +1,0 @@
-O cadastro foi concluído.
