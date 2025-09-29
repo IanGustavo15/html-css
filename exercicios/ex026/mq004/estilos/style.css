@@ -22,16 +22,18 @@ main{
     border-radius: 10px;
     padding: 10px;
 }
-h1{
+main h1{
     text-align: center;
     color: white;
     text-shadow: 2px 2px 2px black;
     font-size: 2em;
 }
-img#phone{
+main img{
     display: block;
     margin: auto;
 }
-img#tablet, img#print, img#pc, img#tv{
-    display: none;
-}
+img#phone{ display: block;}
+img#tablet{ display: none; }
+img#print{ display: none; }
+img#pc{ display: none; }
+img#tv{ display: none; }
